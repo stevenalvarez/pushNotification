@@ -57,12 +57,12 @@ var app = {
         
         //notificaion local TEST
 var d = new Date();
-    d = d.getTime() + 15*1000; //60 seconds from now
+    d = d.getTime() + 30*1000; //60 seconds from now
     d = new Date(d);
 
 window.plugins.localNotification.add({
     date: d, // your set date object
-    message: 'Hello world!',
+    alertBody: 'Hello world!',
     repeat: 'weekly', // will fire every week on this day
     badge: 1,
     foreground:'foreground',
