@@ -82,7 +82,7 @@ function background(id){
 // Schedules a local notification to be triggered after 5 seconds
 window.plugins.localNotification.add({
     fireDate        : Math.round(new Date().getTime()/1000 + 30),
-    alertBody       : "This is a local notification.",
+    alertBody       : "Hola mundo como estas???",
     action          : "View",
     repeatInterval  : "daily",
     soundName       : "beep.caf",
