@@ -57,7 +57,7 @@ var app = {
         
         //notificaion local TEST
 var d = new Date();
-    d = d.getTime() + 5*1000; //60 seconds from now
+    d = d.getTime() + 15*1000; //60 seconds from now
     d = new Date(d);
 
 window.plugins.localNotification.add({
@@ -71,9 +71,11 @@ window.plugins.localNotification.add({
 });
 
 function foreground(id){
+    alert("foreground");
     console.log("I WAS RUNNING ID="+id);
 }
 function background(id){
+    alert("background");
     console.log("I WAS IN THE BACKGROUND ID="+id)
 }
         //notificaion local TEST
