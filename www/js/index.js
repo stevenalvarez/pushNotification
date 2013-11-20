@@ -66,9 +66,7 @@ var app = {
         date: d, // your set date object
         message: 'Hello world!',
         repeat: 'weekly', // will fire every week on this day
-        badge: 0,
-        foreground:'foreground',
-        background:'background'
+        badge: 0
         });
         alert("Manual03");
         //notificaion local TEST
