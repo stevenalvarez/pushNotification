@@ -97,7 +97,7 @@ window.plugins.localNotification.add({
 });
 
 // cancel notificationId = 1234
-window.plugins.localNotification.cancel(1234, callback);
+window.plugins.localNotification.cancel(123, callback);
 
 // cancel all notifications
 window.plugins.localNotification.cancelAll(callback);
