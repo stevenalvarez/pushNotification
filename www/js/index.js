@@ -161,7 +161,7 @@ window.plugins.localNotification.setBadgeNumber(3);
     },
     onPause : function(){
         alert("pause");
-        setTimeout(alert("trigger"),15000);
+        //setTimeout(alert("trigger"),15000);
     },
     onResume : function(){
         alert("resume");
