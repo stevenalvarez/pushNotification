@@ -34,8 +34,6 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-        document.addEventListener("pause", this.onPause, false);
-        document.addEventListener("resume", this.onResume, false);
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -158,12 +156,5 @@ window.plugins.localNotification.setBadgeNumber(3);
             var snd = new Media(event.sound);
             snd.play();
         }
-    },
-    onPause : function(){
-        alert("pause");
-        setTimeout(function(){alert("Hello")},10000);
-    },
-    onResume : function(){
-        alert("resume");
     }
 };
