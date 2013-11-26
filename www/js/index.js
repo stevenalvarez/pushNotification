@@ -79,6 +79,7 @@ function background(id){
     console.log("I WAS IN THE BACKGROUND ID="+id)
 }*/
 
+/*
 // Schedules a local notification to be triggered after 5 seconds
 window.plugins.localNotification.add({
     fireDate        : Math.round(new Date().getTime()/1000 + 30),
@@ -105,7 +106,7 @@ window.plugins.localNotification.cancelAll(callback);
 // set badge number to 3
 window.plugins.localNotification.setBadgeNumber(3);
 
-
+*/
         //notificaion local TEST
         
     },
